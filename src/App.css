@@ -1,0 +1,52 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background: #212534;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  box-sizing: border-box;
+}
+
+.card {
+  background: #191c29;
+  width: 500px;
+  height: 300px;
+  padding: 3px;
+  position: relative;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding:  0 10px;
+  font-size: 1em;
+  color: black;
+  color: #FFF;
+  cursor: pointer;
+}
+.card > div {
+  font-weight: bold;
+}
+
+.connect {
+  background-color: #16a085;
+}
+
+.btn {
+  width: 200px;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 5px;
+  color: #ecf0f1;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.close {
+  background-color: #e74c3c;
+}
